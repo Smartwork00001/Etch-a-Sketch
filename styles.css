@@ -14,5 +14,9 @@
     width: 6.25%;
     aspect-ratio: 1/1;
     /*margin:2px;*/
-    background-color: tan;
+    background-color: beige;
+}
+
+.hovered {
+    background-color: black;
 }

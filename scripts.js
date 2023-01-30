@@ -8,3 +8,10 @@ for(let i=0;i<16;++i){
         grids.appendChild(grid);
     }
 }
+
+function addHoverClass(e){
+    this.classList.add('hovered');
+}
+
+const gridNodeList = document.querySelectorAll(".grid");
+gridNodeList.forEach(grid => grid.addEventListener('mouseover', addHoverClass))
